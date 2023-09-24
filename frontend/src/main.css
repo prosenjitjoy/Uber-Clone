@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @font-face {
+    font-family: "Inter";
+    src: url("/font/Inter.var.woff2");
+  }
+
+  .circle-black {
+    @apply my-0 mx-auto w-2 h-2 bg-black rounded-full
+  }
+
+  .circle-gray {
+    @apply my-0 mx-auto w-2 h-2 bg-gray-300 rounded-full
+  }
+
+  .square-black {
+    @apply my-0 mx-auto w-2 h-2 bg-black
+  }
+
+  .square-gray {
+    @apply my-0 mx-auto w-2 h-2 bg-gray-300
+  }
+
+  .line {
+    @apply my-0 mx-auto w-[2px] h-11 bg-gray-300
+  }
+}
