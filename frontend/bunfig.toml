@@ -1,0 +1,2 @@
+[install.scopes]
+"@here" = "https://repo.platform.here.com/artifactory/api/npm/maps-api-for-javascript/"
