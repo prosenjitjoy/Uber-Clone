@@ -35,7 +35,7 @@ const goBack = () => {
 
 const initializeHereMap = () => {
   const platform = new H.service.Platform({
-    apikey: import.meta.env.VITE_HERE_API_KEY
+    apikey: "F5DFzvqjGoakyh2jvCqbc_qNnYbj-7CE2U1W64vNeqw"
   })
 
   const maptypes = platform.createDefaultLayers();
@@ -59,7 +59,7 @@ const initializeHereMap = () => {
 const initializeRoutingMap = () => {
   // Instantiate a map and platform object:
   var platform = new H.service.Platform({
-    apikey: import.meta.env.VITE_HERE_API_KEY
+    apikey: "F5DFzvqjGoakyh2jvCqbc_qNnYbj-7CE2U1W64vNeqw"
   });
 
   // Retrieve the target element for the map:
